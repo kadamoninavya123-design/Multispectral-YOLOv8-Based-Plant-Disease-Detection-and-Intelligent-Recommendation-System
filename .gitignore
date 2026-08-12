@@ -1,0 +1,25 @@
+﻿# Environment variables
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+venv/
+env/
+
+# Node
+node_modules/
+
+# Generated files
+Application/backend/uploads/
+Application/backend/annotated/
+
+# YOLO model
+*.pt
+
+# Dataset
+Application/plant disease dataset/
+
+# Error/log files
+push-error.txt
